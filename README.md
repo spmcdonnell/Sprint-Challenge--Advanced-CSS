@@ -46,7 +46,7 @@ It ensure thats the root font size of the site is a relative value, so that the 
 
 4.  How would you describe preprocessing to someone new to CSS?
 
-CSS is lacking a lot of common-sense functionality, and this leads to crazy, unorganized, unwieldy, and difficult to maintain stylesheets. Preprocessing supplements core CSS functionality by introducing concepts that are present in programming languages, making CSS easier and more maintainable. The files you write are converted to regular CSS before the browser receives and runs them.
+CSS is lacking a lot of common-sense functionality, and this leads to unorganized, unwieldy, and difficult to maintain stylesheets. Preprocessing supplements core CSS functionality by introducing concepts that are present in programming languages, making CSS easier and more maintainable. The files you write are converted to regular CSS before the browser receives and runs them.
 
 5.  What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 

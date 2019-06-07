@@ -1,1 +1,21 @@
 // Mixins Here
+.flex(@direction: row, @justify: space-between) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify;
+}
+
+.rounded-btn(@bg-color: #22283a, @font-color: #fff) {
+  background-color: @bg-color;
+  color: @font-color;
+  display: inline-block;
+  font-size: 1.8rem;
+  padding: 9px 18px;
+  border-radius: 5px;
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    background-color: lighten(@bg-color, 20%);
+  }
+}
